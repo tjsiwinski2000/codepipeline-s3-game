@@ -8,14 +8,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardArray = [
         { name: 'card1', img: 'images/guppy.jpg' },
         { name: 'card1', img: 'images/guppy.jpg' },
-        { name: 'card2', img: 'images/drake.png' },
-        { name: 'card2', img: 'images/drake.png' },
-        { name: 'card3', img: 'images/fine.png' },
-        { name: 'card3', img: 'images/fine.png' },
-        { name: 'card4', img: 'images/rollsafe.png' },
-        { name: 'card4', img: 'images/rollsafe.png' },
-        { name: 'card5', img: 'images/success.png' },
-        { name: 'card5', img: 'images/success.png' },
+        { name: 'card2', img: 'images/blue-eye-cat.jpg' },
+        { name: 'card2', img: 'images/blue-eye-cat.jpg' },
+        { name: 'card3', img: 'images/cheetah.jpg' },
+        { name: 'card3', img: 'images/cheetah.jpg' },
+        { name: 'card4', img: 'images/hippo.jpg' },
+        { name: 'card4', img: 'images/hippo.jpg' },
+        { name: 'card5', img: 'images/IMG_6813.JPEG' },
+        { name: 'card5', img: 'images/IMG_6813.JPEG' },
         // ...add more pairs as needed
     ];
 
