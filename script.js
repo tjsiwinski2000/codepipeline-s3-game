@@ -70,7 +70,9 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = [];
 
         if (cardsWon.length === cardArray.length / 2) {
-            alert('Congratulations! You found them all!' + start);
+            let end = Date.now(); 
+            let elapsed = (end - start)/1000;   
+            alert('Congratulations! You found them all! Your Time (seconds) is:' + elapsed);
         }
     }
 
