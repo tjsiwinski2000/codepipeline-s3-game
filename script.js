@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardsChosen = [];
     let cardsChosenId = [];
     let cardsWon = [];
-    
+    let start = Date.now(); 
 
     const cardArray = [
         { name: 'card1', img: 'images/guppy.jpg' },
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function createBoard() {
-        let start = Date.now(); 
+        start = Date.now(); 
         shuffle(cardArray);
         grid.innerHTML = '';
         cardsWon = [];
