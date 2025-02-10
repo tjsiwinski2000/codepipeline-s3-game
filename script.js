@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardsChosen = [];
     let cardsChosenId = [];
     let cardsWon = [];
+    let start = Date.now(); 
 
     const cardArray = [
         { name: 'card1', img: 'images/guppy.jpg' },
@@ -69,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = [];
 
         if (cardsWon.length === cardArray.length / 2) {
-            alert('Congratulations! You found them all!');
+            alert('Congratulations! You found them all!', start);
         }
     }
 
