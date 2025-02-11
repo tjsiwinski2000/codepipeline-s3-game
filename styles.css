@@ -36,9 +36,9 @@ h1 {
 }
 
 .card {
-    width: 21.1px;
-    height: 16.6px;
-    background-color: #565c6f;
+    width: 30vw;
+    height: 20vh;
+    background-color: hsl(226, 13%, 39%);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
