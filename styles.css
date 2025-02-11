@@ -36,10 +36,10 @@ h1 {
 }
 
 .card {
-    width: 21.18px;
-    height: 16.62px;
+    width: 21.1px;
+    height: 16.6px;
     background-color: #565c6f;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     display: flex;
@@ -49,7 +49,7 @@ h1 {
 }
 
 .card img {
-    width: 100%;
+    width: 80%;
     height: auto;
     visibility: hidden; /* Hide images by default */
     display: block;
