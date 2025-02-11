@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    width: auto;
+    width: 80vw;
     margin: 40px auto;
     padding: 30px;
     background-color: #3c404d; 
