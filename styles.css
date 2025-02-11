@@ -8,7 +8,8 @@ body {
 }
 
 .container {
-    width: 80vw;
+    width: 60vw;
+    height: 70vw;
     margin: 40px auto;
     padding: 30px;
     background-color: #3c404d; 
@@ -36,8 +37,8 @@ h1 {
 }
 
 .card {
-    width: 30vw;
-    height: 20vh;
+    width: 20vw;
+    height: 10vh;
     background-color: hsl(226, 13%, 39%);
     border-radius: 1%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
